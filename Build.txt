@@ -1,0 +1,16 @@
+# $Id: Build.txt 2059 2014-01-31 07:33:15Z onuchin $
+
+# Author: Valeriy Onuchin  02.06.2011
+
+Build instructions:
+- to build release version just click on "pbuild.bat"
+- to build debug version pass "debug" at the command line, for example, "pbuild.bat debug"
+
+Comment: when I build the project on different systems sometimes I see clash in PATH definitions,
+         so in case of problems I would recommend to run pbuild.bat from Tools -> Visual Studio Command Prompt
+
+After successfull build two programs will be produced:
+Programs\Doctor\bin\Release | Debug\DoctorDisplay.exe   (must be run on the physician's machine)
+Programs\Patient\bin\Release | Debug\PatientDisplay.exe (must be running on the netbook located at the patient's chair)
+
+- to cleanup everything run (click on) "pclean.bat"

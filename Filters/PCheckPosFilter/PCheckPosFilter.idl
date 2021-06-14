@@ -1,0 +1,54 @@
+cpp_quote("/*************************************************************************")
+cpp_quote(" *                                                                       *")
+cpp_quote(" * Copyright (C) 2010,   Valeriy Onuchin                                 *")
+cpp_quote(" * All rights reserved.                                                  *")
+cpp_quote(" *                                                                       *")
+cpp_quote(" *************************************************************************/")
+cpp_quote("")
+cpp_quote("////////////////////////////////////////////////////////////////////////////////")
+cpp_quote("//")
+cpp_quote("// Custom interface CheckPosFilter interface")
+cpp_quote("//")
+cpp_quote("////////////////////////////////////////////////////////////////////////////////")
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(D151587A-9FD6-46d9-B469-5B15AF9ABC4B),
+	nonextensible,
+   helpstring("ICheckPosFilter Interface"),
+	pointer_default(unique)
+]
+interface ICheckPosFilter : IUnknown
+{
+   [id(1)]  HRESULT  SetEffect([in] int effect);
+   [id(2)]  HRESULT  SetThreshold([in] int thresh);
+   [id(3)]  HRESULT  SetRefImage([in] long sz, [in, size_is(sz)] BYTE *img);
+   [id(4)]  HRESULT  Snapshot([in, string, unique] wchar_t *filename);
+   [id(5)]  HRESULT  Reset();
+   [id(6)]  HRESULT  GetEffect([out] int *effect);
+   [id(7)]  HRESULT  GetWidth([out]  int *width);
+   [id(8)]  HRESULT  GetHeight([out] int *height);
+   [id(9)]  HRESULT  GetThreshold([out] int *thresh);
+   [id(10)] HRESULT  GetImageSize([out] int *sz);
+   [id(11)] HRESULT  GetRefImage(BYTE **img);
+   [id(12)] HRESULT  GetCurImage(BYTE **img);
+   [id(13)] HRESULT  Flip([in] int on);
+   [id(14)] HRESULT  Mirrow([in] int on);
+   [id(15)] HRESULT  SetCropArea([in] int x, [in] int y, [in] int w);
+   [id(16)] HRESULT  GetCropArea([out] int *x, [out] int *y, [out] int *w);
+   [id(17)] HRESULT  SetRefImageFile([in, string, unique] wchar_t *filename);
+};
+
+[
+   uuid(4B4C9612-E982-4ae0-B360-2D93A0F69B74),
+   helpstring("PCheckPosFilter")
+]
+coclass PCheckPosFilter
+{
+   [default] interface ICheckPosFilter;
+};
+
+

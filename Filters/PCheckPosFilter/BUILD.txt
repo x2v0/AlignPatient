@@ -1,0 +1,16 @@
+# $Id: BUILD.txt 1191 2012-07-16 13:47:13Z onuchin $ 
+
+=============================================================
+                     Build instructions
+=============================================================
+
+Build instructions:
+- to build release version just click on  pbuild.bat
+- to build debug version pass "debug" at the command line, for example, "build.bat debug"
+- to register/unregitser filter copy register.bat, unregister.bat to Release|Debug directory  and run it 
+
+Comment: when I build the project on different systems sometimes I see clash in PATH definitions,
+         so in case of problems I would recommend to run pbuild.bat from Tools -> Visual Studio Command Prompt
+
+
+

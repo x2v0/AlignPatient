@@ -1,0 +1,25 @@
+LIBRARY     PCheckPosFilter.dll
+
+EXPORTS
+            DllGetClassObject       PRIVATE
+            DllCanUnloadNow         PRIVATE
+            DllRegisterServer       PRIVATE
+            DllUnregisterServer     PRIVATE
+;
+; exported C wrapper functions
+;
+            MakeSnapshot            PRIVATE
+            SetEffect               PRIVATE
+            SetThreshold            PRIVATE
+            SetRefImage             PRIVATE
+            Reset                   PRIVATE
+            GetEffect               PRIVATE
+            GetWidth                PRIVATE
+            GetHeight               PRIVATE
+            GetThreshold            PRIVATE
+            GetImageSize            PRIVATE
+            GetRefImage             PRIVATE
+            GetCurImage             PRIVATE
+            Flip                    PRIVATE
+            Mirrow                  PRIVATE
+            ChangeGlobal            PRIVATE

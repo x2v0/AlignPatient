@@ -1,0 +1,14 @@
+<project outputDir=".\Patient" snKey="" xmlns="http://confuser.codeplex.com">
+  <rule pattern=".*" preset="minimum">
+    <confusion id="rename" />
+    <confusion id="anti debug" />
+    <confusion id="anti ildasm" />
+    <confusion id="rename" />
+    <confusion id="reduce md" />
+    <confusion id="const encrypt" />
+    <confusion id="ctrl flow" />
+    <confusion id="anti tamper" />
+  </rule>
+  <packer id="compressor" />
+  <assembly path="..\Patient\bin\Release\PatientDisplay.exe" isMain="true" />
+</project>

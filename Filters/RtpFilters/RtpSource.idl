@@ -1,0 +1,21 @@
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	object,
+	uuid(4C42A2D6-2382-46bd-9049-F8DCB0E7BA28),
+	nonextensible,
+	pointer_default(unique)
+]
+interface IRtpSource : IUnknown
+{
+	[id(1), helpstring("method Initialize")] HRESULT Initialize( [in] IUnknown* pRtpStream );
+};
+
+[
+    uuid(6DF31D07-99DA-4840-BA42-14784733D430),
+    helpstring("IRtpSource")
+]
+coclass RtpSource
+{
+	[default] interface IRtpSource;
+};

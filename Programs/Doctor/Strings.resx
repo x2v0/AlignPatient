@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PatientLeaved" xml:space="preserve">
+    <value>Компьютер пациента отсоединился! Необходимо проверить включен ли нетбук рассположенный рядом с креслом пациента.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\pin2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NoRefImageInDb" xml:space="preserve">
+    <value>Отсутствует запись о файле в базе данных. Выберете нужный файл ...</value>
+  </data>
+  <data name="NoPatientConnection" xml:space="preserve">
+    <value>Нет соединения с компьютером пациента</value>
+  </data>
+  <data name="SaveFileTypes" xml:space="preserve">
+    <value>JPEG file (*.jpg)|</value>
+  </data>
+  <data name="StreamBroken" xml:space="preserve">
+    <value>Ошибка передачи видео/аудио! Проверьте связь с компьютером пациента.</value>
+  </data>
+  <data name="on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NetworkBroken" xml:space="preserve">
+    <value>Сеть недоступна! Проверьте сетевой разъём.</value>
+    <comment>Network connection is broken! Pease check the plug</comment>
+  </data>
+  <data name="on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaveFileError" xml:space="preserve">
+    <value>Произошла ошибка при сохранении снимка</value>
+  </data>
+  <data name="FailFileAccess" xml:space="preserve">
+    <value>Файл не доступен :</value>
+  </data>
+  <data name="OpenFileDialogFilter" xml:space="preserve">
+    <value>JPEG Files(*.jpg)|*.jpg|All files (*.*)|*.*</value>
+  </data>
+  <data name="SaveFile" xml:space="preserve">
+    <value>Сохранить снимок ...</value>
+  </data>
+  <data name="zoom_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\zoom_in.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DbInsertError" xml:space="preserve">
+    <value>Произошла ошибка создания новой записи в базе данных</value>
+  </data>
+  <data name="LoadRefImageError" xml:space="preserve">
+    <value>Ошибка загрузки реперного изображения : </value>
+  </data>
+  <data name="off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\off.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Консоль доктора</value>
+  </data>
+  <data name="FormTitle" xml:space="preserve">
+    <value>Консоль положения пациента</value>
+  </data>
+  <data name="pin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\pin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom_out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\zoom_out.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Command line options</value>
+  </data>
+  <data name="VideoDetach" xml:space="preserve">
+    <value>Открепить видео</value>
+  </data>
+  <data name="VideoAttach" xml:space="preserve">
+    <value>Прикрепить видео</value>
+  </data>
+  <data name="AudioOn" xml:space="preserve">
+    <value>Звук включен   </value>
+  </data>
+  <data name="OffAudio" xml:space="preserve">
+    <value>Звук включен. Отключить микрофон.</value>
+  </data>
+  <data name="OnAudio" xml:space="preserve">
+    <value>Звук выключен</value>
+  </data>
+  <data name="AudioOftooltip" xml:space="preserve">
+    <value>Звук выключен. Включить микрофон</value>
+  </data>
+  <data name="AboutBox_AboutBox_ЗАО_ПРОТОМ" xml:space="preserve">
+    <value>ЗАО ПРОТОМ</value>
+  </data>
+  <data name="AboutBox_AboutBox_onuchin_cern_ch" xml:space="preserve">
+    <value>onuchin@cern.ch</value>
+  </data>
+  <data name="AboutBox_AboutBox_Контроль_положения_пациента" xml:space="preserve">
+    <value>Контроль положения пациента</value>
+  </data>
+  <data name="DisplayMode" xml:space="preserve">
+    <value>Режим отображения</value>
+  </data>
+  <data name="DontShowDiff" xml:space="preserve">
+    <value>Не отображать разницу </value>
+  </data>
+  <data name="FatherName" xml:space="preserve">
+    <value>Отчество</value>
+  </data>
+  <data name="ShowDiff" xml:space="preserve">
+    <value>Отображать разницу </value>
+  </data>
+  <data name="ShowTransparent" xml:space="preserve">
+    <value>Полупрозрачный режим</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Дата  рожд.</value>
+  </data>
+  <data name="PatientID" xml:space="preserve">
+    <value>ID пациента</value>
+  </data>
+  <data name="PatientName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Подключение ок</value>
+  </data>
+  <data name="GamepadCon" xml:space="preserve">
+    <value>Контроллер не подключен</value>
+  </data>
+  <data name="ProgDescription" xml:space="preserve">
+    <value>Консоль положения пациента</value>
+  </data>
+  <data name="RedLevel" xml:space="preserve">
+    <value>Уровень красного</value>
+  </data>
+  <data name="ReferenceFileReceived" xml:space="preserve">
+    <value>Реперное изображение получено </value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>     Сброс</value>
+  </data>
+  <data name="ResetEx" xml:space="preserve">
+    <value>Сброс увеличения и реперного снимка </value>
+  </data>
+  <data name="SendingFile" xml:space="preserve">
+    <value>Начало пересылки файла </value>
+  </data>
+  <data name="SoundOn" xml:space="preserve">
+    <value>Звук включен</value>
+  </data>
+  <data name="RefFile" xml:space="preserve">
+    <value>Реперное изображение - </value>
+  </data>
+  <data name="Loaded" xml:space="preserve">
+    <value>  загружено.</value>
+  </data>
+  <data name="WaitingForNetCon" xml:space="preserve">
+    <value>Ожидание сетевого соединения</value>
+  </data>
+  <data name="Doctor_Display" xml:space="preserve">
+    <value>Doctor Display</value>
+  </data>
+  <data name="BreathDetector" xml:space="preserve">
+    <value>Индикатор дыхания</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Руководство</value>
+  </data>
+  <data name="HelpEx" xml:space="preserve">
+    <value>Руководство пользователя (F1)</value>
+  </data>
+  <data name="LoadImage" xml:space="preserve">
+    <value>Загрузить изображение</value>
+  </data>
+  <data name="LoadImageEx" xml:space="preserve">
+    <value>Загрузить реперный снимок из базы данных</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="SaveEx" xml:space="preserve">
+    <value>Сохранить реперный снимок в базе данных\r\n</value>
+  </data>
+  <data name="Snap" xml:space="preserve">
+    <value>Фиксировать</value>
+  </data>
+  <data name="SnapEx" xml:space="preserve">
+    <value>Сделать снимок реперного изображения</value>
+  </data>
+  <data name="SoundOnEx" xml:space="preserve">
+    <value>Звук включен. Отключить микрофон</value>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>Увеличить видео</value>
+  </data>
+  <data name="PatientPositionFixMode" xml:space="preserve">
+    <value>Режим фиксации положения пациента</value>
+  </data>
+  <data name="PatientPositionFixText1" xml:space="preserve">
+    <value>1. Выберите зону интереса двигая желтую и синюю линии</value>
+  </data>
+  <data name="PatientPositionFixText2" xml:space="preserve">
+    <value>2. Увеличьте зону интереса нажав кнопку "Увеличить видео"</value>
+  </data>
+  <data name="PatientPositionFixText3" xml:space="preserve">
+    <value>3. Сделайте снимок реперного изображения нажав кнопку "Фиксировать"</value>
+  </data>
+  <data name="PatientPositionFixText4" xml:space="preserve">
+    <value>4. Сохраните реперное изображение в базе данных нажав кнопку "Сохранить"</value>
+  </data>
+  <data name="PatientPositionVerifyMode" xml:space="preserve">
+    <value>Режим верификации положения пациента</value>
+  </data>
+  <data name="PatientPositionVerifyText1" xml:space="preserve">
+    <value>1. загрузите реперное изображение из базы данных нажав кнопку "Загрузить изображение"</value>
+  </data>
+  <data name="PatientPositionVerifyText2" xml:space="preserve">
+    <value>2. откорректируйте положение пациента так, чтобы "Уровень красного" был  "зелёным" &lt; 10</value>
+  </data>
+  <data name="PatientPositionVerifyText3" xml:space="preserve">
+    <value>3. в процессе облучения "Уровень красного" должен быть "зелёным" &lt; 10</value>
+  </data>
+</root>

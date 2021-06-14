@@ -1,0 +1,13 @@
+[
+	uuid(231FF640-F1EF-4e84-9128-11A1C0437568),
+	version(1.0),
+	helpstring("Managed Interface for filters"),
+	helpcontext(00000000)
+]
+library pfilters
+{
+    #include "..\Filters\RtpFilters\RtpSource.idl"
+    #include "..\Filters\RtpFilters\RtpRenderer.idl"
+    //#include "..\MSR.LST.DShow\ScreenScraper\ScreenScraper.idl"
+    #include "..\Filters\PCheckPosFilter\PCheckPosFilter.idl"
+}

@@ -1,0 +1,21 @@
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	object,
+	uuid(D03A9B6D-CAD0-47fd-B3D8-91B741066536),
+	nonextensible,
+	pointer_default(unique)
+]
+interface IRtpRenderer : IUnknown
+{
+	[id(1), helpstring("method Initialize")] HRESULT Initialize([in] IUnknown* pRtpSender);
+};
+
+[
+	uuid(A2A1DF8F-BABD-4352-9CDE-4A624E34D44A),
+	helpstring("IRtpRenderer")
+]
+coclass RtpRenderer
+{
+	[default] interface IRtpRenderer;
+};
